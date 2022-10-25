@@ -1,0 +1,22 @@
+.project_container{
+    min-height: 35rem;
+    width: auto; 
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+body{
+    overflow-x: hidden;
+}
+.linked{
+    margin-bottom: 3rem;
+}
+@media (max-width: 500px) {
+    .project_container{
+        gap: 1rem;
+    }
+}

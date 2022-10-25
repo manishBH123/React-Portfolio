@@ -1,0 +1,45 @@
+.content2{
+    min-height: 100vh;
+    width: 100vw;
+    padding-top:3rem;
+    text-align: center;
+}
+.card_container{
+    /* border: 2px solid black; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    flex-wrap: wrap;
+}
+.header_portion{
+    width: 28rem;
+    /* border:2px solid red; */
+    margin: auto;
+}
+.header_1{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+.desc1{
+    padding-top:1rem;
+    padding-bottom:1.8rem;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 1110px) {
+    .card_container{
+        gap:0;
+    }
+}
+@media (max-width: 490px) {
+    .header_portion{
+        width: 20rem;
+    }
+}
+@media (max-width: 330px) {
+    .header_portion{
+        width:16rem;
+    }
+}

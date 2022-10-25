@@ -1,0 +1,42 @@
+.secondpage{
+    /* background-color: rgb(255, 171, 171); */
+    min-height: 100vh;
+    width: 100vw;
+    padding-top: 8rem;
+    overflow-x: hidden;
+}
+
+.header_portion3{
+    width: 28rem;
+    /* border:2px solid red; */
+    margin: auto;
+    text-align: center;
+}
+.carrd{
+    height: 21rem;
+}
+.header_1{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+.desc1{
+    padding-top:1rem;
+    padding-bottom:1.8rem;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 1110px) {
+    .card_container{
+        gap:0;
+    }
+}
+@media (max-width: 490px) {
+    .header_portion{
+        width: 20rem;
+    }
+}
+@media (max-width: 330px) {
+    .header_portion{
+        width:16rem;
+    }
+}

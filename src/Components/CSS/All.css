@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Grenze+Gotisch&family=Hubballi&family=Inter:wght@500&family=Lato&family=Lobster&family=Lobster+Two:wght@700&family=Manrope:wght@300&family=Martel&family=Open+Sans&family=Poppins:wght@200;300&family=Quicksand&family=Roboto:wght@300;400&family=Sansita+Swashed:wght@300&family=Work+Sans:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--bg);
+    border-radius: 1rem;
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --bg: #ff4e4e;
+    --whitebg: #edfbfe;
+    --text: rgb(43, 43, 43);
+}
+.firstpage_container{
+    height: auto;
+}
